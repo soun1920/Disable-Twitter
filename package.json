@@ -1,7 +1,7 @@
 {
-  "name": "Force Closing Twitter",
+  "name": "Disable Twitter",
   "version": "0.1.0",
-  "description": "My Chrome Extension",
+  "description": "Do not open twitter",
   "private": true,
   "scripts": {
     "watch": "node ./node_modules/webpack/bin/webpack.js --mode=development --watch --config config/webpack.config.js",

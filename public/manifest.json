@@ -17,18 +17,12 @@
     "default_title": "Force Closing Twitter",
     "default_popup": "popup.html"
   },
-  "permissions": [
-    "storage"
-  ],
+  "permissions": ["storage", "tabs", "activeTab", "scripting", "webNavigation"],
   "content_scripts": [
     {
-      "matches": [
-        "<all_urls>"
-      ],
+      "matches": ["<all_urls>"],
       "run_at": "document_idle",
-      "js": [
-        "contentScript.js"
-      ]
+      "js": ["contentScript.js"]
     }
   ]
 }
